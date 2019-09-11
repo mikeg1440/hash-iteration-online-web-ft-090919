@@ -8,6 +8,6 @@ suite_e: "Crumpet the Elf"
 
 def select_winner(passengers)
   
-  winner = passengers[:suite_a][0].downcase == "a" ? passengers[:suite_a] : nil
+  winner = passengers[:suite_a][0] == "A" ? passengers[:suite_a] : nil
   
 end
