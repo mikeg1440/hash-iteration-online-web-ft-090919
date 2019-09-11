@@ -19,5 +19,6 @@ def select_winner(passengers)
   end
   
   # winner = passengers[:suite_a][0] == "A" ? passengers[:suite_a] : nil
-
+  
+  winner
 end
